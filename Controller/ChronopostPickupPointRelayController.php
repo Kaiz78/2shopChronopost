@@ -29,7 +29,7 @@ class ChronopostPickupPointRelayController
     /**
      * @Route("/coordinates", name="_coordinates", methods="POST")
      */
-    public function findByAddress($data) : ?array
+    public function findByAddress($data)
     {
         
         if(!is_array($data)){

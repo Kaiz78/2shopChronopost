@@ -1,0 +1,17 @@
+h1 {
+	font-size: 5em;
+	line-height: 1;
+}
+
+#support_faq h3 {
+	font-size: 2.2em;
+}
+
+#support_faq h4 {
+	cursor: pointer;
+	font-size: 1.25em;
+}
+
+#support_videos h3 {
+	font-size: 2.25em;
+}

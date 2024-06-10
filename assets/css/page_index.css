@@ -1,0 +1,380 @@
+/* ///////////////////////////// */
+/* version haute definition */
+/* ///////////////////////////// */
+
+
+.grayBackG{
+    background-color: #efefef;
+}
+
+.arialRegular{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+/* .container-fluid{
+    padding:0;
+    margin: 0;
+} */
+
+#mainPicture{
+    text-align: start;
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+#imgPrincipale{
+    position: absolute;
+    width: 100%;
+}
+
+#h1{
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+.intro{
+    max-width: 650px;
+    margin:auto;
+}
+
+#text1{
+    font-size: 1.2em;
+}
+
+#imgGarantieVie{
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.textNoir1{
+    font-size: 1.2em;
+    max-width: 630px;
+    margin:auto;
+}
+.textNoir2{
+    font-size: 1.2em;
+    max-width: 540px;
+    margin:auto;
+}
+.leftB{
+    max-width: 500px;
+      margin: auto;
+}
+
+.btn {
+    background-color: #5A7EBF;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.button1 {
+    background-color: #efefef;
+    color: #5A7EBF; 
+    border: 1px solid #5A7EBF;
+}
+
+.button1:hover {
+    background-color: #5A7EBF;
+    color: white;
+}
+
+#imgParachut{
+    max-width: 200px;
+}
+
+.linkOffre{
+    margin: 0;
+}
+.voirOffre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide{
+    padding: 5% 5% 5% 5%;  
+
+}
+
+h3{
+    font-weight: bold;
+}
+.rightText{
+    max-width: 590px;
+    font-size: 1.2em;
+}
+
+input[type] {
+    max-width: 400px;
+}
+
+h5{
+    font-size: 0.8em;
+}
+
+
+/* ///////////////////////////// */
+/*         Version pc            */
+/* ///////////////////////////// */
+@media screen and (max-width: 1500px) {
+
+    /* #mainPicture{
+        height: 40%;
+
+    } */
+    #imgPrincipale{
+        position: inherit;
+    }
+
+    #h1{
+        margin-top: 10px;
+        font-size: 3em;
+    }
+
+    .intro{
+        max-width: 500px;
+    }
+
+    #text1{
+        font-size: 1em;
+    }
+    #imgGarantieVie{
+        max-width: 80px;
+    }
+    .textNoir1{
+        font-size: 0.8em;
+        max-width: 410px;
+    }
+    .textNoir2{
+        font-size: 0.8em;
+        max-width: 350px;
+    }
+    .leftB{
+        max-width: 450px;
+    }
+    #imgParachut{
+        max-width: 150px;
+    }
+
+    .rightSide{
+        padding: 5% 5% 5% 5%;  
+    }
+
+    h3{
+        font-size: 1.3em;
+    }
+    .bigtext{
+        height: 70px;
+    }
+
+    .rightText{
+        max-width: 490px;
+        font-size: 0.987em;
+    }                
+}
+/* @media screen and (max-width: 1140px) {
+    .textNoir{
+        font-size: 1em;
+        max-width: 520px;
+        margin:auto;
+    }
+} */
+
+
+/* ///////////////////////////// */
+/*         Version tablette      */
+/* ///////////////////////////// */
+@media screen and (max-width: 992px) {
+    #mainPicture{
+        height: 45%;
+    }
+    /* #h1{
+        margin: 25px 0 5px;
+    } */
+
+    #imgPrincipale{
+        position: relative;
+    }
+    .logos_small{
+        width: 100%;
+    }
+    #logo_force{
+        width: 10%;
+    }
+    .rightSide{
+        padding: 5% 5% 5% 25%;  
+    }
+    .textNoir1{
+        font-size: 1em;
+        max-width: 470px;
+        margin:auto;
+    }
+    .textNoir2{
+        font-size: 1em;
+        max-width: 400px;
+        margin:auto;
+    }
+    .rightText{
+        font-size: 1.11em;
+    }  
+
+}
+
+@media screen and (max-width: 815px) {
+
+    .intro{
+        max-width: 550px;
+    }
+    #imgPrincipale{
+        position: inherit;
+    }
+
+    #text1{
+        font-size: 1.2em;
+    }
+    #mainPicture{
+        height: 35%;
+    }
+    /* .textNoir{
+        font-size: 1em;
+        max-width: 500px;
+        margin:auto;
+    } */
+
+    .leftB{
+        /* max-width: 500px; */
+        margin-bottom: 20px;
+    }
+    .rightText{
+        max-width: 440px;
+        font-size: 1em;
+    }
+    .logos_small{
+        margin: 0%;
+    }
+    .rightSide{
+        padding: 5% 5% 5% 5%;  
+    }
+
+}
+
+
+
+/* ///////////////////////////// */
+/*         Version Gr mobile     */
+/* ///////////////////////////// */
+@media screen and (max-width: 600px) {
+    #h1{
+        font-size: 4em;
+        padding-top: 0px;
+    }
+    #text1{
+        font-size: 0.9em;
+        max-width: 420px;
+        margin: auto;
+    }
+    #leftSide{
+        padding: 0 5px;
+    }
+    #imgGarantieVie{
+        max-width: 80px;
+        margin: 2% 0px;
+    }
+    .textNoir1{
+        font-size: 0.8em;
+        max-width: 380px;
+    }
+    .textNoir2{
+        font-size: 0.8em;
+        max-width: 320px;
+    }
+    input[type] {
+        width: 300px;
+    }
+    .rightText{
+        max-width: 352px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #mainPicture{
+        display: none;
+    }
+ 
+                    
+}
+
+
+
+@media screen and (max-width: 450px) {
+   
+  
+    #text1{
+        max-width: 400px;
+    }
+  
+    .textNoir1{
+        padding: 0;
+        /* margin: 0; */
+    }
+    .textNoir2{
+        padding: 0;
+        /* margin: 0; */
+    }
+  
+                    
+}
+
+
+/* ///////////////////////////// */
+/*      Version Petit mobile     */
+/* ///////////////////////////// */
+@media screen and (max-width: 400px) {
+
+    #leftSide{
+        padding: 0 5px;
+    }
+
+    .textNoir1{
+        font-size: 0.8em;
+        padding: 0;
+        /* margin: 0; */
+    }
+    .textNoir2{
+        font-size: 0.8em;
+        padding: 0;
+        /* margin: 0; */
+    }
+
+    #offre{
+        width: 100px;
+    }
+
+    #logoHome{
+        width: 100px;
+    }
+
+    #text1{
+        font-size: 0.8em;
+        max-width: 350px;
+    }
+
+    .rightText{
+        max-width: 260px;
+    }
+
+    h5{
+        font-size: 0.7em;
+    }
+    
+    p{
+        font-size: 0.8em;
+    }
+}
